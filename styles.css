@@ -1,0 +1,60 @@
+img {
+    max-width: 30%;
+}
+
+header {
+    background: rgb(0, 119, 255);
+    text-align: center;
+    border-bottom: solid 5px black;
+    border-top: solid 5px black;
+    margin-bottom: 30px;
+}
+
+h1, h2, h3, p {
+    font-family: 'Amatic SC', cursive;
+    font-size: 80px;
+}
+.prateleira-desejos {
+    text-align: center;
+}
+.prateleira-desejos h2 {
+    font-size: 50px;
+    border-bottom: solid 3px black;
+    border-top: solid 3px black;
+    margin-bottom: 30px;
+    background-color: #cbcbcb;
+}
+
+.prateleira-desejos h3 {
+    font-size: 40px;
+    color: #4b9f71;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.prateleira-desejos p {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.product-apresentation-buy-button {
+    font-size: 40px;
+    color: #4b9f71;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    background-color: #47b478;
+    color: rgb(223, 62, 62);
+    padding: 20px;
+}
+
+/* tablet break point */
+@media screen and (max-width: 992px) {
+    img {
+        max-width: 100%;
+    }
+}
