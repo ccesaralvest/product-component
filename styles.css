@@ -27,7 +27,7 @@ h1, h2, h3, p {
 
 .prateleira-desejos h3 {
     font-size: 40px;
-    color: #4b9f71;
+    color: #1b01af;
     text-decoration: underline;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -43,18 +43,42 @@ h1, h2, h3, p {
 }
 .product-apresentation-buy-button {
     font-size: 40px;
-    color: #4b9f71;
+    color: #4538ff;
     margin-top: 20px;
     margin-bottom: 20px;
     text-transform: uppercase;
-    background-color: #47b478;
-    color: rgb(223, 62, 62);
+    background-color: #4538ff;
+    color: rgb(12, 12, 12);
     padding: 20px;
 }
 
 /* tablet break point */
-@media screen and (max-width: 992px) {
-    img {
-        max-width: 100%;
-    }
+
+@media (max-width:768px) { /*  tablets retrato, iPad retrato, e-readers (Nook/Kindle), telefones paisagem 800x480 (Android) */ }
+@media (max-width:992px)  { /* tablet, iPad horizontal, laptops de baixa resolução e desktops */ }
+@media (max-width:1200px) { /* grandes tablets, laptops e desktops em paisagem */ }
+
+@media screen and (max-width:768px) {
+    img {max-width: 20%;}
+    h1, h2, h3, p {font-size: 30px;}
+    .prateleira-desejos h2 {font-size: 30px;}
+    .prateleira-desejos h3 {font-size: 20px;}
+    .prateleira-desejos p {font-size: 20px;}
+    .product-apresentation-buy-button {font-size: 15px;}
+}
+@media screen and (max-width:992px) {
+    img {max-width: 30%;}
+    h1, h2, h3, p {font-size: 40px;}
+    .prateleira-desejos h2 {font-size: 35px;}
+    .prateleira-desejos h3 {font-size: 25px;}
+    .prateleira-desejos p {font-size: 25px;}
+    .product-apresentation-buy-button {font-size: 20px;}
+}
+@media screen and (max-width:1200px) {
+    img {max-width: 50%;}
+    h1, h2, h3, p {font-size: 55px;}
+    .prateleira-desejos h2 {font-size: 40px;}
+    .prateleira-desejos h3 {font-size: 30px;}
+    .prateleira-desejos p {font-size: 30px;}
+    .product-apresentation-buy-button {font-size: 25px;}
 }
