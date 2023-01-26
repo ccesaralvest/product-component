@@ -27,7 +27,7 @@ h1, h2, h3, p {
 
 .prateleira-desejos h3 {
     font-size: 40px;
-    color: #4b9f71;
+    color: #1b01af;
     text-decoration: underline;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -43,69 +43,42 @@ h1, h2, h3, p {
 }
 .product-apresentation-buy-button {
     font-size: 40px;
-    color: #4b9f71;
+    color: #4538ff;
     margin-top: 20px;
     margin-bottom: 20px;
     text-transform: uppercase;
-    background-color: #47b478;
-    color: rgb(223, 62, 62);
+    background-color: #4538ff;
+    color: rgb(12, 12, 12);
     padding: 20px;
 }
 
 /* tablet break point */
 
-@media (min-width:320px) { /* smartphones, retrato iPhone, retrato 480x320 telefones (Android) */ }
-@media (min-width:480px) { /* smartphones, telefones Android, paisagem iPhone */ }
-@media (min-width:600px) { /* tablets retrato, iPad retrato, e-readers (Nook/Kindle), telefones paisagem 800x480 (Android) */ }
-@media (min-width:801px) { /* tablet, iPad horizontal, laptops de baixa resolução e desktops */ }
-@media (min-width:1025px) { /* grandes tablets, laptops e desktops em paisagem */ }
-@media (min-width:1281px) { /* laptops e desktops de alta resolução */ }
+@media (max-width:768px) { /*  tablets retrato, iPad retrato, e-readers (Nook/Kindle), telefones paisagem 800x480 (Android) */ }
+@media (max-width:992px)  { /* tablet, iPad horizontal, laptops de baixa resolução e desktops */ }
+@media (max-width:1200px) { /* grandes tablets, laptops e desktops em paisagem */ }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width:768px) {
     img {max-width: 20%;}
-    h1, h2, h3, p {font-size: 20px;}
+    h1, h2, h3, p {font-size: 30px;}
     .prateleira-desejos h2 {font-size: 30px;}
     .prateleira-desejos h3 {font-size: 20px;}
     .prateleira-desejos p {font-size: 20px;}
     .product-apresentation-buy-button {font-size: 15px;}
 }
-@media screen and (min-width: 480px) {
-    img {max-width: 21%;}
+@media screen and (max-width:992px) {
+    img {max-width: 30%;}
     h1, h2, h3, p {font-size: 40px;}
     .prateleira-desejos h2 {font-size: 35px;}
     .prateleira-desejos h3 {font-size: 25px;}
     .prateleira-desejos p {font-size: 25px;}
     .product-apresentation-buy-button {font-size: 20px;}
 }
-@media screen and (min-width: 600px) {
-    img {max-width: 23;}
+@media screen and (max-width:1200px) {
+    img {max-width: 50%;}
     h1, h2, h3, p {font-size: 55px;}
     .prateleira-desejos h2 {font-size: 40px;}
     .prateleira-desejos h3 {font-size: 30px;}
     .prateleira-desejos p {font-size: 30px;}
     .product-apresentation-buy-button {font-size: 25px;}
-}
-@media screen and (min-width: 801pxpx) {
-    img {max-width: 25%;}
-    h1, h2, h3, p {font-size: 60px;}
-    .prateleira-desejos h2 {font-size: 45px;}
-    .prateleira-desejos h3 {font-size: 35px;}
-    .prateleira-desejos p {font-size: 35px;}
-    .product-apresentation-buy-button {font-size: 35px;}
-}
-@media screen and (min-width: 1025px) {
-    img {max-width: 26%;}
-    h1, h2, h3, p {font-size: 65px;}
-    .prateleira-desejos h2 {font-size: 50px;}
-    .prateleira-desejos h3 {font-size: 40px;}
-    .prateleira-desejos p {font-size: 40px;}
-    .product-apresentation-buy-button {font-size: 40px;}
-}
-@media screen and (min-width: 1281px) {
-    img {max-width: 27%;}
-    h1, h2, h3, p {font-size: 70px;}
-    .prateleira-desejos h2 {font-size: 55px;}
-    .prateleira-desejos h3 {font-size: 45px;}
-    .prateleira-desejos p {font-size: 45px;}
-    .product-apresentation-buy-button {font-size: 42px;}
 }
